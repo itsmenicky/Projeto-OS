@@ -1,6 +1,6 @@
 <h1 align=center>OS System V1.1</h1>
 <p align=center>⚙️ Work order management system</p>
-<img style="border-radius: 10px" src="...">
+<img style="border-radius: 10px" src="https://github.com/itsmenicky/Projeto-OS/blob/main/Image/imagem-OS.png">
 
 
 ### 👨‍💻 Programming Languages
