@@ -50,7 +50,7 @@ public class AboutScreen extends javax.swing.JFrame {
 
         jLabel2.setText("Desenvolvido por Nickolas Martins");
 
-        jLabel3.setText("Licença: GPL");
+        jLabel3.setText("Licença: GPL 2.0");
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br.com.infox.icons/gnuIcon.png"))); // NOI18N
 

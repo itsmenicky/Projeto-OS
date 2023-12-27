@@ -249,10 +249,24 @@ public class ScreenOS extends javax.swing.JInternalFrame {
                 HashMap<String, Object> filtro = new HashMap<>();
 filtro.put("os", Integer.parseInt(txtOS.getText()));
                 filtro.put("os", Integer.parseInt(txtOS.getText()));
-                JasperPrint print = JasperFillManager.fillReport(getClass().getResourceAsStream("/reports/os.jasper"), filtro, conexao);
+                JasperPrint print = JasperFillManager.fillReport(getClass().getResourceAsStream("/Reports/OS.jasper"), filtro, conexao);
                 JasperViewer.viewReport(print, false);
-                conexao.close();
-            } catch (NumberFormatException | SQLException | JRException e) {
+                 btnAddOS.setEnabled(true);
+                txtOSSearch.setEnabled(true);
+                tbClients.setVisible(true);
+                txtOS.setText(null);
+                txtOSDate.setText(null);
+                txtOSIdCli.setText(null);
+                txtOSEquip.setText(null);
+                txtOSDef.setText(null);
+                txtOSServ.setText(null);
+                txtOSTec.setText(null);
+                txtOSTotal.setText(null);
+                cbOSSit.setSelectedItem(" ");
+                btnEditOS.setEnabled(false);
+                btnOSDelete.setEnabled(false);
+                btnOSPrint.setEnabled(false);
+            } catch (NumberFormatException | JRException e) {
                 JOptionPane.showMessageDialog(null, e);
             }
         }
