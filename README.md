@@ -1,4 +1,4 @@
-<h1 align=center>OS System V1.1 <img src="https://img.shields.io/badge/License-GPL_v2-blue.svg"></h1>
+<h1 align=center>OS System V1.1 <a href="https://github.com/itsmenicky/Projeto-OS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL_v2-blue.svg"></a></h1>
 <p align=center>⚙️ Work order management system</p>
 <div align=center><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"></div>
 <img style="border-radius: 10px" src="https://github.com/itsmenicky/Projeto-OS/blob/main/Image/imagem-OS.png">
@@ -23,9 +23,3 @@
 To perfectly run in your machine you need to install:
 
 - Java 8
-
-### 📝 LICENSE
-
-This project is under license:
-
-<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL 2.0</a>
