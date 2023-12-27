@@ -23,3 +23,7 @@
 To perfectly run in your machine you need to install:
 
 - Java 8
+
+### Credits
+
+- <strong>Project made and inspired by Professor José de Assis (https://github.com/professorjosedeassis), all my gratitude for the learning 🙏.</strong>
